@@ -1,2 +1,58 @@
 
 /* Your CSS Code here. */
+*
+{
+	margin:0,
+	padding:0,
+	box-sizing:border-box;
+	
+}
+
+.container
+{
+	
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	overflow:hidden;
+	
+}
+.container > h1{
+    
+	
+	display:flex;
+	width:100%;
+	height:50%;
+	color:black;
+	text-align:center;
+	align-items:center;
+	margin:10px 10px ;
+}
+.container >p{
+
+	display:flex;
+}
+.athiti-bold {
+  font-family: "Athiti", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.athiti-regular {
+  font-family: "Athiti", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color:grey
+}
+
+.inline-block
+{
+	display:inline-flex;
+}
+span
+{
+	color:red
+}
+		
